@@ -1,10 +1,10 @@
-# Next.js & HeroUI Template
+# Next.js & HeroUI 프로젝트
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+이는 Next.js 14(앱 디렉토리)와 HeroUI(v2)를 사용하여 애플리케이션을 만들기 위한 템플릿입니다.
 
 [Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
 
-## Technologies Used
+## 사용된 기술
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
 - [HeroUI v2](https://heroui.com/)
@@ -14,40 +14,34 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
+## 필요 사항
 
-### Use the template with create-next-app
+### nvm 설치
 
-To create a new project based on this template using `create-next-app`, run the following command:
+- [nvm-windows Link](https://github.com/coreybutler/nvm-windows/releases) nvm-setup.exe 다운로드하여 로컬 pc에설치
+
+### Node.js 설치
+
+- 20.19.0 버전
+
+### pnpm 설치
+
+- 10.11.0 버전
+
+## 로컬 서버 실행 방법
+
+### 터미널 위치를 C:\dev\kdy-react-study 으로 이동후
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+pnpm install
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
+### pnpm install 을 마쳤다면
 
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
+Collaborators <span style="color: blue;">__hhhheh__</span>,<span style="color: red;">__ntworld__</span>
 
 Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
