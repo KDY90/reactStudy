@@ -30,7 +30,10 @@
 
 ## 로컬 서버 실행 방법
 
-### 터미널 위치를 C:\dev\kdy-react-study 으로 이동후
+### 터미널 위치를 C:\dev\프로젝트폴더 으로 이동후 ex) C:\dev\kdy-react-study
+- dev 없다면 새로만들것 드라이브 명 ex)C:,D: 은 다를수있음
+- dev폴더 ->kdy-react-study 폴더가 프로젝트 폴더
+
 
 ```bash
 pnpm install
